@@ -1,0 +1,68 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f5f7f9;
+  justify-content: center;
+  align-items: center;
+
+  .content {
+    width: 568px;
+
+    .head {
+      text-align: center;
+      margin: 0 0 30px 0;
+      height: 67px;
+
+      .shopeeText {
+        color: #ee4d2d;
+        font-size: 42px;
+      }
+
+      .phegdaText {
+        font-weight: bold;
+        font-size: 38px;
+        color: #333333;
+      }
+
+      .divider {
+        display: inline-block;
+        width: 3px;
+        height: 32px;
+        background-color: #d8d8d8;
+        margin: 0 20px;
+      }
+    }
+
+    .bot {
+      height: 195px;
+      background: #ffffff;
+      font-size: 16px;
+      color: #333333;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+
+      .btn {
+        font-weight: bold;
+        outline: none;
+        margin-top: 10px;
+        background: #ee4d2d;
+        color: #ffffff;
+        display: inline-block;
+        width: 215px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        border: none;
+        border-radius: 4px;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        &:hover {
+          background-color: #fa7857;
+        }
+      }
+    }
+  }
+}
